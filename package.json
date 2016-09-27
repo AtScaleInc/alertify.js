@@ -1,8 +1,8 @@
 {
   "name": "@atscale/alertify",
   "description": "An unobtrusive customizable JavaScript notification system",
-  "version": "0.3.13",
-  "main": "lib/index.js",
+  "version": "0.3.14",
+  "main": "lib/alertify.js",
   "homepage": "http://fabien-d.github.com/alertify.js/",
   "author": {
     "name": "Fabien Doiron",
