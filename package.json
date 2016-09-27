@@ -1,7 +1,7 @@
 {
-  "name": "alertify",
+  "name": "@atscale/alertify",
   "description": "An unobtrusive customizable JavaScript notification system",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "homepage": "http://fabien-d.github.com/alertify.js/",
   "author": {
     "name": "Fabien Doiron",
@@ -9,6 +9,10 @@
   },
   "scripts": {
     "test": "grunt jshint qunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtScaleInc/alertify.js.git"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.4.3",
