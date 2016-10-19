@@ -2,6 +2,27 @@
 
 Alertify is an unobtrusive customizable JavaScript notification system.
 
+## Publish as npm package
+
+To publish this to AtScale's Artifactory as an npm package, you first need to fetch the authentication params using your Artifactory <USERNAME> and <PASSWORD> credentials.
+```
+curl -u<USERNAME>:<PASSWORD> "http://artifactory.corp.atscale.com/api/npm/npm-local/auth/atscale"
+```
+
+The response, which will look similar to the following code block, should be pasted into your ~/.npmrc file.
+```
+@atscale:registry=http://artifactory.corp.atscale.com/api/npm/npm-local/
+/artifactory.corp.atscale.com/api/npm/npm-local/:_password=<BASE64_PASSWORD>
+/artifactory.corp.atscale.com/api/npm/npm-local/:username=<USERNAME>
+/artifactory.corp.atscale.com/api/npm/npm-local/:email=youremail@email.com
+/artifactory.corp.atscale.com/api/npm/npm-local/:always-auth=true
+```
+
+Now you can publish.
+```
+npm publish
+```
+
 ## Features
 
 * Fully customizable alert, confirm and prompt dialogs
