@@ -1,6 +1,6 @@
 Alertify is an unobtrusive customizable JavaScript notification system.
 
-## Branched from
+## Forked from
 
 http://fabien-d.github.com/alertify.js/
 
